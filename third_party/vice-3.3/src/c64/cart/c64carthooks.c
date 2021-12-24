@@ -382,7 +382,7 @@ static const cmdline_option_t cmdline_options[] =
       "<Name>", "Attach raw 32KB Super Snapshot V4 cartridge image" },
     { "-cartss5", CALL_FUNCTION, CMDLINE_ATTRIB_NEED_ARGS,
       cart_attach_cmdline, (void *)CARTRIDGE_SUPER_SNAPSHOT_V5, NULL, NULL,
-      "<Name>", "Attach raw 64KB Super Snapshot V5 cartridge image" },
+      "<Name>", "Attach raw 64KB or 128KB Super Snapshot V5 cartridge image" },
     { "-cartstar", CALL_FUNCTION, CMDLINE_ATTRIB_NEED_ARGS,
       cart_attach_cmdline, (void *)CARTRIDGE_STARDOS, NULL, NULL,
       "<Name>", "Attach raw 16KB Stardos cartridge image" },
